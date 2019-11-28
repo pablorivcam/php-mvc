@@ -3,7 +3,7 @@ require_once 'controllers/error-controller.php';
 
 class App{
     function __construct(){
-        echo "<p>Nueva app</p>";
+        // echo "<p>Nueva app</p>";
         $url = $_GET['url'];
         $url = rtrim($url,'/');
         $url = explode('/',$url);
